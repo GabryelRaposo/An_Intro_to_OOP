@@ -4,4 +4,3 @@
 
 This is an introduction to Object-oriented programming with some exercises on C++.
 
-kakaka
