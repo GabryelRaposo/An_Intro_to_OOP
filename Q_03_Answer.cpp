@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <sstream>
 #include <cmath>
@@ -12,6 +13,7 @@ using namespace std;
 //programa que, por meio de um objeto do tipo resistor, calcule a tensão para tensão para uma corrente
 //dada pelo usuário e a corrente para um tensão dada pelo usuário. O valor da resistência deve ser
 //dada pelo usuário.
+
 
 
 
