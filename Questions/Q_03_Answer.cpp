@@ -15,19 +15,20 @@ using namespace std;
 //dada pelo usuário.
 
 class resistor{
-    int res,i,u;
+    float res,i,u;
     
     public:
-    void set_resistor(int r){res = r;}
-    void set_tensao(int i){u = res*i;}
-    void set_current(int u){i = u/res;}
-    int get_resistor(void){return res;}
-    int get_current(void){return i;}
-    int get_tensao(void){return u;}
+    void set_resistor(float r){res = r;}
+    void set_tensao(float i){u = res*i;}
+    void set_current(float u){i = u/res;}
+    float get_resistor(void){return res;}
+    float get_current(void){return i;}
+    float get_tensao(void){return u;}
 };
 
 int main(){
-int s,r,u,i;
+float r,u,i;
+int s;
 
 resistor res;
 cout << "Digite o valor da sua resistência" << endl;
